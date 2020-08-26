@@ -38,18 +38,44 @@
 }
 
 body {
-  margin: 0;
+  color: lightcyan;
+  margin: 100px;
   padding: 0;
   font-family: sans-serif;
   text-align: center;
-  background-color: #DAF7A6;
+  background-image: url('../src/Dali-Flickr-CC-e1309916926972.jpg');
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  background-color: rgba(0,0,0, .7);
+  border-radius: 30% 60% 30% 60%;
+  box-shadow: 5px 10px rgba(62,13,174, .6);
 }
 
 li {
+  background-color: rgba(0,0,0, .7);
+  border-radius: 30% 60% 30% 60%;
+  box-shadow: 5px 10px rgba(62,13,174, .6);
   border-bottom: 1px solid #ccc;
   width: 200px;
   display: block;
   margin-bottom: 20px;
+  font-size: 30px;
+}
+
+li:hover{
+  color: darkgoldenrod;
+  animation: spin 2s ease-out;
+}
+@keyframes spin {
+  from {
+    transform:  rotate(0deg) ;
+  }
+  to {
+    transform: rotate(360deg) ;
+  }
 }
 
 div{

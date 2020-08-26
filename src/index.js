@@ -4,7 +4,7 @@ import './index.css';
 import MyList from './MyList';
 import * as serviceWorker from './serviceWorker';
 
-var toDos = ["Buy ice cream", "Eat ice cream", "Go to the gym"]
+var toDos = ["Buy 4 lbs of ice cream", "Eat 4 lbs of ice cream", "Go to the gym"]
 
 ReactDOM.render(
   <React.StrictMode>

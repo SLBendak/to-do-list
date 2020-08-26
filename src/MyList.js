@@ -11,7 +11,7 @@ class MyList extends Component {
       <div>
         <h1> Things I should stop procrastinating:</h1>
         <ul>
-          <ListItem  doThis="Buy ice cream" />
+          {todoItems}
         </ul>
       </div>
     )
